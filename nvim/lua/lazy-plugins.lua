@@ -42,10 +42,10 @@ require('lazy').setup({
     opts = {
       -- See `:help gitsigns.txt`
       signs = {
-        add = { text = '+' },
-        change = { text = '~' },
-        delete = { text = '_' },
-        topdelete = { text = '‾' },
+        add          = { text = '+' },
+        change       = { text = '~' },
+        delete       = { text = '_' },
+        topdelete    = { text = '‾' },
         changedelete = { text = '~' },
         untracked    = { text = '┆' },
       },
@@ -237,6 +237,16 @@ require('lazy').setup({
   "aca/emmet-ls",
   "nvim-pack/nvim-spectre",
   "derektata/lorem.nvim",
+
+  {
+    -- emmet-nvim
+    "mattn/emmet-vim"
+  },
+  {
+    -- vim-
+    "mg979/vim-visual-multi"
+    --
+  },
 
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart

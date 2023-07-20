@@ -71,28 +71,28 @@ vim.opt.backspace   = 'start,eol,indent'
 vim.opt.path:append { '**' }
 vim.opt.wildignore:append { '*/node_modules/*' }
 
-vim.opt.tabstop     = 2
-vim.opt.showtabline = 2
--- vim.opt.relativenumber  = true
-vim.opt.numberwidth = 2
-vim.opt.shiftwidth  = 2
-vim.opt.softtabstop = 2
-vim.opt.smartindent = true
-vim.opt.smarttab    = true
-vim.opt.expandtab   = true
-vim.opt.autoindent  = true
-vim.opt.cindent     = true
+vim.opt.tabstop        = 2
+vim.opt.showtabline    = 2
+vim.opt.relativenumber = true
+vim.opt.numberwidth    = 2
+vim.opt.shiftwidth     = 2
+vim.opt.softtabstop    = 2
+vim.opt.smartindent    = true
+vim.opt.smarttab       = true
+vim.opt.expandtab      = true
+vim.opt.autoindent     = true
+vim.opt.cindent        = true
 
-vim.opt.cursorline  = true
-vim.opt.winblend    = 0
-vim.wildoptions     = 'pum'
-vim.opt.pumblend    = 5
+vim.opt.cursorline     = true
+vim.opt.winblend       = 0
+vim.wildoptions        = 'pum'
+vim.opt.pumblend       = 5
 
-vim.opt.undofile    = true
-vim.o.undodir       = '/tmp/.vim/.undodir'
+vim.opt.undofile       = true
+vim.o.undodir          = '/tmp/.vim/.undodir'
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
-vim.opt.showmode    = false
+vim.opt.showmode       = false
 
 vim.cmd [[
   set guifont=Fira\ Code\:h23
@@ -101,6 +101,8 @@ vim.cmd [[
 
 vim.g.neovide_input_macos_alt_is_meta = true
 
+-- for emmet
+vim.g.user_emmet_leader_key = ','
 
 vim.cmd [[
 " system clipboard
